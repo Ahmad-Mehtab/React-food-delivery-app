@@ -1,0 +1,99 @@
+.itemRowContainer{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    padding: 10px 10px;
+    overflow-x: scroll;
+    overflow-y:hidden;
+    justify-content: center;
+}
+.itemRowContainer::-webkit-scrollbar{
+    display: none;
+}
+.MenuCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 120px;
+    background-color: #fff;
+    min-width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); 
+    padding: 5px;
+    margin-top: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.MenuCard:hover,
+.MenuCard.active{
+    background: #f8901c;
+}
+.imgBox{
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 100vw;
+    background-color: #f8901c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 2px;
+    transition: 0.5s;
+}
+.MenuCard:hover .imgBox,
+.MenuCard.active .imgBox{
+    background: #fff;
+}
+.imgBox img{
+    
+    width: 100%;
+    height: 100%;
+}
+.MenuCard:hover .imgBox img,
+.MenuCard.active .imgBox img{
+    width: 95%;
+    height: 95%;
+    border-radius: 100vw;
+    transition: 0.9s;
+}
+.MenuCard h3{
+    color: #f8901c;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.7s;
+}
+.MenuCard:hover h3,
+.MenuCard.active h3{
+    color: #fff;
+}
+
+.MenuCard .loadMenu{
+    width: 20px;
+    height: 20px;
+    background-color: #f8901c;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.MenuCard:hover .loadMenu,
+.MenuCard.active .loadMenu{
+    background-color: #fff;
+}
+.loadMenu .MuiSvgIcon-root{
+    font-size: 20px;
+    color: #fff;
+}
+
+.MenuCard:hover .MuiSvgIcon-root,
+.MenuCard.active .MuiSvgIcon-root{
+    color: #f8901c;
+   
+}
+

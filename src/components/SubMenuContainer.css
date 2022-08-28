@@ -1,0 +1,36 @@
+.dishContainer{
+    width: 100%;
+    padding: 0px 12px;
+    
+}
+.menuCard{
+    width: 100%;
+   
+}
+.subMenuContainer,
+.viewAll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.viewAll p{
+    font-size: 12px;
+    color: #f8901c;
+    font-weight: 400;
+    
+}
+.viewAll i{
+    width: 20px;
+    height: 20px;
+    min-height: 20px;
+    background-color: #f8901c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 10px;
+}
+.viewAll i .MuiSvgIcon-root{
+    font-size: 16px;
+    color: #faf9fb;
+}

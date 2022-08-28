@@ -1,0 +1,33 @@
+.total_sec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 5px;
+}
+.total_sec h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: #2a2b2c;
+}
+.total_sec p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2a2b2c;
+}
+.total_sec p span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #f8901c;
+}
+.checkOutButton{
+    background: #f8901c;
+    width: 100%; 
+    padding: 7px 0px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px;
+    outline: none;
+}
